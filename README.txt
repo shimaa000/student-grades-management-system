@@ -1,7 +1,7 @@
 Student Grades Project
 
 How to run in NetBeans:
-1. Open the project folder StudentGradesCleanProject.
+1. Open the project folder StudentGradesManagementSystem.
 2. Right click the project name.
 3. Choose Run Maven > Other Goals...
 4. Type: javafx:run

@@ -14,4 +14,19 @@ Password: 1234
 Data files:
 data/students.txt
 data/grades.txt
-They are empty at the beginning. The application writes new data into these files.
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.jpeg)
+
+### Add Student
+![Add Student](screenshots/Add%20Student.jpeg)
+
+### Add Grade
+![Add Grade](screenshots/Add%20Grade.jpeg)
+
+### View Students
+![View Students](screenshots/View%20Students.jpeg)
+
+### Reports
+![Reports](screenshots/Reports.jpeg)

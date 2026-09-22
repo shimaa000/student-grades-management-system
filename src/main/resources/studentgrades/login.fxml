@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="studentgrades.controller.LoginController" spacing="12" alignment="CENTER">
+    <padding><Insets top="30" right="30" bottom="30" left="30"/></padding>
+    <Label text="Student Grades Manager" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    <TextField fx:id="usernameField" promptText="Username" maxWidth="260"/>
+    <PasswordField fx:id="passwordField" promptText="Password" maxWidth="260"/>
+    <Button text="Login" onAction="#login" prefWidth="120"/>
+    <Label fx:id="messageLabel" textFill="red"/>
+</VBox>

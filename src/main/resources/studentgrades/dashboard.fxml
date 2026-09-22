@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="studentgrades.controller.DashboardController" spacing="14" alignment="CENTER">
+    <padding><Insets top="30" right="30" bottom="30" left="30"/></padding>
+    <Label text="Dashboard" style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+    <Button text="Add Student" onAction="#openAddStudent" prefWidth="200"/>
+    <Button text="Add Grade" onAction="#openAddGrade" prefWidth="200"/>
+    <Button text="View Students" onAction="#openViewStudents" prefWidth="200"/>
+    <Button text="Reports" onAction="#openReports" prefWidth="200"/>
+    <Button text="Logout" onAction="#logout" prefWidth="200"/>
+</VBox>

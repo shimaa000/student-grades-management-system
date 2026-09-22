@@ -1,19 +1,26 @@
-Student Grades Project
+# Student Grades Management System
 
-How to run in NetBeans:
-1. Open the project folder StudentGradesManagementSystem.
-2. Right click the project name.
-3. Choose Run Maven > Other Goals...
-4. Type: javafx:run
-5. Click OK.
+A JavaFX-based student grades management system built with Java and Maven.
 
-Login:
-Username: admin
-Password: 1234
+## How to Run in NetBeans
 
-Data files:
-data/students.txt
-data/grades.txt
+1. Open the project folder `StudentGradesManagementSystem`.
+2. Right-click the project name.
+3. Select **Run Maven > Other Goals...**
+4. Enter `javafx:run`.
+5. Click **OK**.
+
+## Login Information
+
+- **Username:** admin
+- **Password:** 1234
+
+## Data Files
+
+The application uses the following data files:
+
+- `data/students.txt`
+- `data/grades.txt`
 ## Screenshots
 
 ### Dashboard
